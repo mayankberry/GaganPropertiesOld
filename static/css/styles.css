@@ -1,0 +1,13 @@
+
+.blockquote{
+    font-size: 5rem; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    background-color:palegreen;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(233, 248, 100), grey );
+    background-color: lightskyblue;
+    position: fixed; width: 100%; left: 0; bottom: 0; text-align: center; background-color: black; color: white;
+   
+}
