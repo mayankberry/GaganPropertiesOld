@@ -1,0 +1,91 @@
+{% extends 'Base.html' %}
+
+{% block title %}
+Home 
+{% endblock title %}
+
+{% block body %} 
+<!-- Heading -->
+<div style= "background-image: linear-gradient(to right, black, white); display:table">
+<h1 style= "font-size: 5vw; color: blue; text-shadow: 2px 2px 4px #000000; font-family: Georgia, serif"> <u>Gagan Properties </h1> 
+</div> 
+
+<div style= "background-image: linear-gradient(to right, skyblue, white); display:table">
+<p style= "font-size: 2.5vw"> - You Dream It We Make It Happen</u> </p>
+</div>
+
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="static/images/home pic1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/home pic2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/home pic3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--WE OFFER-->
+<div class="title-content">
+<h2 style= "text-align: center"><br><u>We Offer</u></h2>
+<hr style="height:2px; border-width:0; color:gray; background-color:gray">
+</div>
+
+<!--We OFFER Cards Group-->
+<div class="row row-cols-1 row-cols-md-3 g-4" style= "padding-left: 8vw; padding-right: 8vw">
+  <div class="col">
+    <div class="card" style= "text-align: center">
+      <img src="static/images/consulting.jpg" alt="..." width="50" height="60" style= "display: block; margin-left: auto; margin-right: auto" >
+      <div class="card-body">
+        <h5 class="card-title"><u>Real Estate Consultant</u></h5>
+        <p class="card-text">The most suitable properties with the help of a professional real estate consultant, we offer you a variety of services with all the latest updates.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style= "text-align: center">
+      <img src="static/images/navigation.jpg" alt="..." width="50" height="60" style= "display: block; margin-left: auto; margin-right: auto">
+      <div class="card-body">
+        <h5 class="card-title"><u>One Stop Solution</u></h5>
+        <p class="card-text">We are continuously working to provide our clients the best out of all the options.We have our own and independent sources to provide our clients the service of excellence.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style= "text-align: center">
+      <img src="static/images/budget.jpg" alt="..." width="50" height="60" style= "display: block; margin-left: auto; margin-right: auto">
+      <div class="card-body">
+        <h5 class="card-title"><u>Budget Friendly</u></h5>
+        <p class="card-text">Located in Kirti Nagar, Delhi. A firm with 20 years of experience providing our clients with excellent service, without any extra cost or excessive amount. Buy a beautiful property at a reasonable price without any complaints.</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card" style= "text-align: center">
+      <img src="static/images/loan.jpg" alt="..." width="50" height="60" style= "display: block; margin-left: auto; margin-right: auto">
+      <div class="card-body">
+        <h5 class="card-title"><u>Loan Facilities</u></h5>
+        <p class="card-text">Loan facilities are provided to our clients based upon the criteria and the minimum budget requirement to invest in a property with proper guidance.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+{% endblock body %} 
